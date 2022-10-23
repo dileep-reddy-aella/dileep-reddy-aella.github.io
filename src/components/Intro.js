@@ -8,7 +8,7 @@ const Intro = () => {
   const [showAbout, setShowAbout] = useState(false)
 
   return (
-    <div className='text-white'>
+    <div className='h-full text-white'>
       <div className='w-full'>
         <img src={profilePic} className='h-24 w-24 rounded-lg'/>
       </div>

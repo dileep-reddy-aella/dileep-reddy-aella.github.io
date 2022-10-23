@@ -15,7 +15,7 @@ const Intro = () => {
       <div className='mt-14 font-mono text-2xl font-extralight antialiased'>
         <p>Hello I'm <Typewriter classes={'text-violet-700'} text='Dileep Reddy,' endBlinker={true} finishedTyping={() => setJobRole(true)}/></p>
         { showJobRole &&
-          <p style={{color: '#58e953'}}><span className=''><Typewriter endBlinker={true} text='a Fullstack developer' finishedTyping={() => setShowAbout(true)}/></span><span className={`transition-opacity ease-in-out delay-150 duration-300 ${showAbout ? 'opacity-100' : 'opacity-0'}`}> from Hyderabad, India</span></p>
+          <p style={{color: '#58e953'}}><span className=''><Typewriter endBlinker={true} text='a Fullstack developer' finishedTyping={() => setShowAbout(true)}/></span><span className={`transition-opacity ease-in-out delay-500 duration-300 ${showAbout ? 'opacity-100' : 'opacity-0'}`}> from Hyderabad, India</span></p>
         }
       </div>
       <div className={`mt-14 w-2/3 font-mono text-2xl font-extralight antialiased transition-opacity ease-in-out delay-1000 duration-300 ${showAbout ? 'opacity-100' : 'opacity-80 blur-sm'}`}>

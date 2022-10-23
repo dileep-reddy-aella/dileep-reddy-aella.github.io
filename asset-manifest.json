@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dileep-reddy-aella.github.io/static/css/main.677b1971.css",
+    "main.js": "/dileep-reddy-aella.github.io/static/js/main.d848e5bd.js",
+    "static/js/787.1ed0c42c.chunk.js": "/dileep-reddy-aella.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/DileepReddyResume.pdf": "/dileep-reddy-aella.github.io/static/media/DileepReddyResume.ce790d9a4900a143db83.pdf",
+    "static/media/profile.jpeg": "/dileep-reddy-aella.github.io/static/media/profile.739a05eddc5df5b98dc5.jpeg",
+    "index.html": "/dileep-reddy-aella.github.io/index.html",
+    "main.677b1971.css.map": "/dileep-reddy-aella.github.io/static/css/main.677b1971.css.map",
+    "main.d848e5bd.js.map": "/dileep-reddy-aella.github.io/static/js/main.d848e5bd.js.map",
+    "787.1ed0c42c.chunk.js.map": "/dileep-reddy-aella.github.io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.677b1971.css",
+    "static/js/main.d848e5bd.js"
+  ]
+}

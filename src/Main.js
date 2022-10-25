@@ -2,6 +2,7 @@ import React from 'react';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Intro from './components/Intro';
+import Menu from './components/Menu';
 
 const Main = () => {
   return (
@@ -9,6 +10,7 @@ const Main = () => {
       <Intro />
       <Experience />
       <Contact />
+      <Menu />
     </div>
   )
 }

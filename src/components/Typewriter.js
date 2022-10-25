@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 const Typewriter = ({ text, endBlinker, finishedTyping, classes }) => {
 
-  const [ index, setIndex ] = useState(0)
+  const [index, setIndex] = useState(0)
   const [blink, setBlink] = useState(true)
 
   useEffect(() => {

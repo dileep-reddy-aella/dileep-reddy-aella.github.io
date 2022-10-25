@@ -1,14 +1,13 @@
 import React, { useState } from 'react'
 import { profilePic } from '../assets/images'
 import Typewriter from './Typewriter'
-import Resume from '../assets/DileepReddyResume.pdf'
 
 const Intro = () => {
   const [showJobRole, setJobRole] = useState(false);
   const [showAbout, setShowAbout] = useState(false)
 
   return (
-    <div className='h-full text-white text-2xl lg:text-2xl md:text-xl sm:text-lg xs:text-lg'>
+    <section id='intro' className='h-full text-white text-2xl lg:text-2xl md:text-xl sm:text-lg xs:text-lg'>
       <div className='w-full'>
         <img src={profilePic} className='h-24 w-24 rounded-lg'/>
       </div>
@@ -24,14 +23,7 @@ const Intro = () => {
         </p>
       </div>
       <p className='mt-14 sm:mt-12 xs:mt-12 font-normal text-[#58e953] animate-pulse'>~~~</p>
-      <div className='mt-14 sm:mt-12 xs:mt-12 font-mono font-extralight antialiased'>
-        <a href={Resume} target="_blank">
-          <p className='underline underline-offset-8 text-[#00b4e6] animate-bounce'>
-            {`-> Download Resume <-`}
-          </p>
-        </a>
-      </div>
-    </div>
+    </section>
   )
 }
 

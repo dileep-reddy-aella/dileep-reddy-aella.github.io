@@ -7,3 +7,14 @@
   margin: 0;
   background: #000;
 }
+
+.menu-active {
+  display: inline-flex;
+  background-color: #0f150f;
+  align-items: center;
+}
+
+.menu-active::before {
+  content: "->";
+  margin-right: 1rem;
+}

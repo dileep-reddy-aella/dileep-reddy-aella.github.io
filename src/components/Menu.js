@@ -16,10 +16,10 @@ const animation = {
 }
 
 const Menu = () => {
-  const position = '2xl:fixed xl:fixed lg:fixed xs:mt-14 sm:mt-14 md:mt-14 rounded-[20px] 2xl:top-24 xl:top-24 lg:top-24 right-14 bottom-24 m-0'
-  const font = 'text-2xl lg:text-2xl md:text-xl sm:text-lg xs:text-lg'
+  const position = '2xl:fixed xl:fixed lg:fixed xs:mt-14 sm:mt-14 md:mt-14 rounded-[20px] 2xl:top-24 xl:top-24 lg:top-24 2xl:right-14 xl:right-14 lg:right-14 xs:mx-auto bottom-24 m-0'
+  const font = 'text-2xl lg:text-2xl md:text-xl sm:text-lg xs:text-sm'
   return (
-    <footer style={animation} className={`${position} ${font} min-w-[300px] bg-[#0f150f] py-10 pr-10 pl-8 text-[#58e953]`}>
+    <footer style={animation} className={`${position} ${font} min-w-[300px] xs:w-10/12 xs:min-w-max bg-[#0f150f] py-10 pr-10 pl-8 text-[#58e953]`}>
       <nav className='h-full bg-[#0f150f]'>
         <ul className='h-full bg-[#0f150f] flex flex-row xs:flex-col xs:items-center xs:mx-auto 2xl:flex-col xl:flex-col lg:flex-col xs:justify-between sm:justify-between md:justify-between justify-center items-end antialiased'>
           <Link

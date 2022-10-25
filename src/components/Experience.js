@@ -20,7 +20,7 @@ const Experience = () => {
           </p>
         </a>
       </div>
-      <p className='mt-14 sm:mt-12 xs:mt-6 text-[#58e953]'>## Experience <span className='text-4xl'>&#8595;</span></p>
+      <p className='mt-14 sm:mt-12 xs:mt-6 text-[#58e953]'>## Experience <span className='text-4xl xs:hidden'>&#8595;</span></p>
       <div className='mt-10 sm:mt-10 xs:mt-6'>
         <a href="https://www.ekincare.com/" target='_blank'>
           <p className=''>
@@ -42,7 +42,6 @@ const Experience = () => {
         <p className='mt-10 xs:mt-6 text-[#8f8f8f]'>{` -> Designed and developed entire frontend. Integrated third party API's to show relatime data of crypto currencies. Created templates for Newsletters.`}</p>
       </div>
       { Skills() }
-      <p className='mt-14 font-normal text-[#58e953] animate-pulse'>~~~</p>
     </section>
   )
 }

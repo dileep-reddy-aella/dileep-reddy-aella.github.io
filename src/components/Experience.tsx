@@ -1,7 +1,7 @@
-import React from 'react'
+import { FC, VFC } from 'react'
 import Resume from '../assets/DileepReddyResume.pdf'
 
-const Skills = () => {
+const Skills: FC<void> = () => {
   return (
     <div className='mt-14 xs:mt-10'>
       <h2>What makes my work possible <span className='animate-beating text-[#8b0000] font-bold'>^_^</span></h2>
@@ -10,7 +10,7 @@ const Skills = () => {
   )
 }
 
-const Experience = () => {
+const Experience: FC = () => {
   return (
     <section id='experience' className='mt-14 sm:mt-12 xs:mt-12 h-max w-2/3 md:w-full sm:w-full xs:w-full text-white antialiased text-2xl lg:text-2xl md:text-xl sm:text-lg xs:text-sm'>
       <div className='mt-14 sm:mt-12 xs:mt-10 font-mono font-extralight antialiased'>

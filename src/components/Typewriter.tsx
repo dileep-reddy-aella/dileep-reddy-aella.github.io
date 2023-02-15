@@ -1,9 +1,16 @@
-import React, { useEffect, useState } from 'react'
+import { FC, useEffect, useState } from 'react'
 
-const Typewriter = ({ text, endBlinker, finishedTyping, classes }) => {
+interface Props {
+  text: string;
+  endBlinker: boolean;
+  finishedTyping: () => void;
+  classes?: string;
+}
 
-  const [index, setIndex] = useState(0)
-  const [blink, setBlink] = useState(true)
+const Typewriter: FC<Props> = ({ text, endBlinker, finishedTyping, classes }) => {
+
+  const [index, setIndex] = useState<number>(0)
+  const [blink, setBlink] = useState<boolean>(true)
 
   useEffect(() => {
     if (endBlinker && (index >= text.length - 1)) { return setBlink(false) };

@@ -1,0 +1,40 @@
+// Refer this for starter config - https://github.com/Microsoft/TypeScript-React-Starter/blob/master/tsconfig.json
+// https://www.pluralsight.com/guides/typescript-react-getting-started
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ],
+  "types": [
+    "typePatches"
+  ],
+  "include": [
+    "src"
+  ]
+}
+
+// CHEATSHEET FOR REACT + TS => https://github.com/typescript-cheatsheets/react

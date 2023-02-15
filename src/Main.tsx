@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Intro from './components/Intro';

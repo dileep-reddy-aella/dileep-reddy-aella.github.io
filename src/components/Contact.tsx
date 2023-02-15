@@ -1,6 +1,6 @@
-import React from 'react'
+import { FC } from 'react'
 
-const Contact = () => {
+const Contact: FC = () => {
   return (
     <section id='contact' className='mt-14 sm:mt-12 xs:mt-6 h-max w-2/3 md:w-full sm:w-full xs:w-full max-w-screen text-white antialiased text-2xl lg:text-2xl md:text-xl sm:text-lg xs:text-sm'>
       <p className='mt-14 font-normal text-[#58e953] animate-pulse'>~~~</p>

@@ -3,8 +3,8 @@ import { profilePic } from '../assets/images'
 import Typewriter from './Typewriter'
 
 const Intro = () => {
-  const [showJobRole, setJobRole] = useState(false);
-  const [showAbout, setShowAbout] = useState(false)
+  const [showJobRole, setJobRole] = useState<boolean>(false);
+  const [showAbout, setShowAbout] = useState<boolean>(false)
 
   return (
     <section id='intro' className='h-full text-white text-2xl lg:text-2xl md:text-xl sm:text-lg xs:text-sm'>
